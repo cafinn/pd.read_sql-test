@@ -3,7 +3,7 @@ from pyodbc import connect as pyodbc_connect
 import pandas as pd
 
 
-# Uses a local installation of "SQL Server 2019 Express Edition" 
+# Uses a local installation of "SQL Server 2019 Express Edition"
 # - Basic installation
 #
 # MS SQL Server Management Studio notes for diagnostic access:
