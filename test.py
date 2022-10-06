@@ -3,7 +3,8 @@ from pyodbc import connect as pyodbc_connect
 import pandas as pd
 
 
-# Uses a local installation of "SQL Server 2019 Express Edition" - Basic installation
+# Uses a local installation of "SQL Server 2019 Express Edition" 
+# - Basic installation
 #
 # MS SQL Server Management Studio notes for diagnostic access:
 #   click connect icon
@@ -12,8 +13,8 @@ import pandas as pd
 #   select <local machine name>\SQLEXPRESS
 #   Use Windows Authentication
 
-connection_string = 'Driver={SQL Server};Server=localhost\\SQLEXPRESS;Database=master;'
-connection_string += 'Trusted_Connection=True;'
+connection_string = 'Driver={SQL Server};Server=localhost\\SQLEXPRESS;'
+connection_string += 'Database=master;Trusted_Connection=True;'
 
 # print(f'{connection_string = }')
 
